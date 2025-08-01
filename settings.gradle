@@ -1,0 +1,6 @@
+rootProject.name = 'product-service'
+include 'domain'
+include 'usecase'
+include 'application'
+include 'infrastructure'
+
