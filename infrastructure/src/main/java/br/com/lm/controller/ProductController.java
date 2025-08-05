@@ -34,6 +34,10 @@ public class ProductController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size) {
 
+        if (productName == null && minPrice == null && maxPrice == null) {
+            return ResponseEntity.badRequest().build();
+        }
+
         PaginatedProducts result = searchProductsUseCase.searchProducts(
                 productName, minPrice, maxPrice, page, size);
 
