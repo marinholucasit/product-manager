@@ -1,8 +1,6 @@
-package usecase;
+package br.com.lm.usecase;
 
-import model.PaginatedProducts;
-
-import java.awt.print.Pageable;
+import br.com.lm.model.PaginatedProducts;
 
 public interface SearchProductsUseCase {
     PaginatedProducts searchProducts(String productName, Double minPrice, Double maxPrice, int page, int size);

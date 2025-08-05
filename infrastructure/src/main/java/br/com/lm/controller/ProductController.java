@@ -3,14 +3,14 @@ package br.com.lm.controller;
 import br.com.lm.dto.request.ProductRequestDTO;
 import br.com.lm.dto.response.PaginatedProductResponse;
 import br.com.lm.dto.response.ProductResponseDTO;
-import entity.Product;
+import br.com.lm.entity.Product;
 import lombok.RequiredArgsConstructor;
-import model.PaginatedProducts;
+import br.com.lm.model.PaginatedProducts;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import usecase.CreateProductUseCase;
-import usecase.SearchProductsUseCase;
+import br.com.lm.usecase.CreateProductUseCase;
+import br.com.lm.usecase.SearchProductsUseCase;
 
 @RestController
 @RequestMapping("/api/products")

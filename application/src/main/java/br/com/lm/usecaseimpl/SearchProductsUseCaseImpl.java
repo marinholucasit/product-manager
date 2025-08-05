@@ -1,4 +1,4 @@
-package usecaseimpl;
+package br.com.lm.usecaseimpl;
 
 import br.com.lm.gateway.ProductGateway;
 import br.com.lm.model.PaginatedProducts;

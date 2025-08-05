@@ -1,6 +1,6 @@
 package br.com.lm.dto.request;
 
-import entity.Product;
+import br.com.lm.entity.Product;
 import lombok.*;
 
 @Getter

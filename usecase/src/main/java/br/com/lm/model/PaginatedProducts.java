@@ -1,6 +1,6 @@
-package model;
+package br.com.lm.model;
 
-import entity.Product;
+import br.com.lm.entity.Product;
 
 import java.util.List;
 
